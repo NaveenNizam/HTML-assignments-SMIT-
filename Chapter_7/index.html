@@ -8,23 +8,40 @@
 </head>
 <body>
     <h1>FORM</h1>
-    <form action="your detail" style="border: 1;">
-      Name:  <input type="name">
-      Password: <input type="password" >
-    </form>
-   <form action="">
-       <p>here you : </p>
-       <select name="" id="">
-         <option value="">google</option>
-         <option value="">insta</option>
-       </select> <br>
-       <h3>choose 1</h3>
+    <form >
+      <fieldset>
+        <legend>Your Details:</legend>
+        <label for="">Name:  </label>
+        <input type="name">
+        
+        <br> <br>
+        <label for="">Email: </label>
+        <input type="email" >
+        
+      </fieldset>
+    
+      <fieldset>
+        <legend>Your Review:</legend> <br>
+        <label for="">How did you hear about us?</label>
+       <select >
+         <option >google</option>
+         <option >instagram</option>
+         <option >facebook</option>
+       </select> <br> <br>
+       <label for="">Would you visit again?</label>
+       <br>
        <input type="radio" >
-       <label for="html">HTML</label><br>
+       <label >Yes</label>
        <input type="radio" >
-       <label for="css">CSS</label><br>
-       <p>comment</p>
-       <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+       <label>No</label>
+       <input type="radio" >
+       <label>Maybe</label>
+
+      <p>Comments:</p>
+      <textarea name="" id="" cols="30" rows="5"></textarea> <br>
+      <label>
+        <input type="checkbox" > Sign me up for email updates 
+      </label> <br> <br>
        <button>sign in</button>
    </form>
     
