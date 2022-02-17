@@ -11,3 +11,9 @@ git push -u origin main
 git remote add origin https://github.com/NaveenNizam/Web.git
 git branch -M main
 git push -u origin main
+
+/**** update work *****/
+git add .
+git status
+git commit -m "message "
+git push
